@@ -43,7 +43,8 @@ def config():
     logging.basicConfig(
         level=args.log_level,
         format='%(asctime)s - %(filename)s - %(levelname)s - %(message)s')
-    with open(args['config_file']) as file_handle:
+    #print(args)
+    with open(args.config_file) as file_handle:
         config = json.load(file_handle)
     return config, args
 
@@ -71,30 +72,30 @@ def get_updateComponent_version(env):
     data = show_jar_versions(env, 'updateComponent', True)
     return data
 def get_emailsync_version(env):
-    data = show_jar_versions('env', 'emailSync', True)
+    data = show_jar_versions(env, 'emailSync', True)
     return data
 def get_ParseReviewsXml_version():
-    data = show_jar_versions('env', 'ParseReviewsXml', True)
+    data = show_jar_versions(env, 'ParseReviewsXml', True)
     return data
 def get_ProductPageUrlProcessor_version():
-    data = show_jar_versions('env', 'ProductPageUrlProcessor', True)
+    data = show_jar_versions(env, 'ProductPageUrlProcessor', True)
     return data
 def get_promosync_version():
-    data = show_jar_versions('env', 'promosync', True)
+    data = show_jar_versions(env, 'promosync', True)
     return data
 def get_PsaChangeNotifier_version():
-    data = show_jar_versions('env', 'PsaChangeNotifier', True)
+    data = show_jar_versions(env, 'PsaChangeNotifier', True)
     return data
 def get_mvrefresh_version():
-    data = show_jar_versions('env', 'mvrefresh', True)
+    data = show_jar_versions(env, 'mvrefresh', True)
     return data
 
 def main():
-    print (__args__.environment_name)
     if __args__.environment_name:
-        sitebuild_host = get_emailsync_version(__args__.environment_name)
+        get_emailsync_version(__args__.environment_name)
     exit(0)
 
 if __name__ == '__main__':
     __config__, __args__ = config()
     main()
+

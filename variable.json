@@ -1,0 +1,333 @@
+{
+  "status_folder": "/www/sitebuild_version",
+  "le-tst-a": {
+    "updateComponent": {
+      "source": "/www/le-tst-a/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-tst-a_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-tst-a/emailSync/lib/emailsync.jar",
+      "output_file": "le-tst-a_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-tst-a/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-tst-a_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-tst-a/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-tst-a_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-tst-a/promoSync/lib/promosync.jar",
+      "output_file": "le-tst-a_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-tst-a/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-tst-a_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-tst-a/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-tst-a_mvrefresh.json"
+    }
+  },
+  "le-dev-a": {
+    "updateComponent": {
+      "source": "/www/le-dev-a/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-dev-a_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-dev-a/emailSync/lib/emailsync.jar",
+      "output_file": "le-dev-a_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-dev-a/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-dev-a_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-dev-a/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-dev-a_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-dev-a/promoSync/lib/promosync.jar",
+      "output_file": "le-dev-a_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-dev-a/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-dev-a_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-dev-a/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-dev-a_mvrefresh.json"
+    }
+  },
+  "le-int-a": {
+    "updateComponent": {
+      "source": "/www/le-int-a/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-int-a_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-int-a/emailSync/lib/emailsync.jar",
+      "output_file": "le-int-a_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-int-a/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-int-a_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-int-a/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-int-a_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-int-a/promoSync/lib/promosync.jar",
+      "output_file": "le-int-a_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-int-a/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-int-a_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-int-a/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-int-a_mvrefresh.json"
+    }
+  },
+  "le-qas-a": {
+    "updateComponent": {
+      "source": "/www/le-qas-a/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-qas-a_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-qas-a/emailSync/lib/emailsync.jar",
+      "output_file": "le-qas-a_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-qas-a/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-qas-a_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-qas-a/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-qas-a_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-qas-a/promoSync/lib/promosync.jar",
+      "output_file": "le-qas-a_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-qas-a/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-qas-a_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-qas-a/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-qas-a_mvrefresh.json"
+    }
+  },
+  "le-tst-b": {
+    "updateComponent": {
+      "source": "/www/le-tst-b/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-tst-b_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-tst-b/emailSync/lib/emailsync.jar",
+      "output_file": "le-tst-b_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-tst-b/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-tst-b_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-tst-b/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-tst-b_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-tst-b/promoSync/lib/promosync.jar",
+      "output_file": "le-tst-b_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-tst-b/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-tst-b_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-tst-b/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-tst-b_mvrefresh.json"
+    }
+  },
+  "le-dev-b": {
+    "updateComponent": {
+      "source": "/www/le-dev-b/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-dev-b_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-dev-b/emailSync/lib/emailsync.jar",
+      "output_file": "le-dev-b_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-dev-b/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-dev-b_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-dev-b/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-dev-b_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-dev-b/promoSync/lib/promosync.jar",
+      "output_file": "le-dev-b_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-dev-b/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-dev-b_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-dev-b/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-dev-b_mvrefresh.json"
+    }
+  },
+  "le-int-b": {
+    "updateComponent": {
+      "source": "/www/le-int-b/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-int-b_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-int-b/emailSync/lib/emailsync.jar",
+      "output_file": "le-int-b_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-int-b/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-int-b_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-int-b/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-int-b_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-int-b/promoSync/lib/promosync.jar",
+      "output_file": "le-int-b_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-int-b/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-int-b_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-int-b/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-int-b_mvrefresh.json"
+    }
+  },
+  "le-tst-c": {
+    "updateComponent": {
+      "source": "/www/le-tst-c/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-tst-c_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-tst-c/emailSync/lib/emailsync.jar",
+      "output_file": "le-tst-c_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-tst-c/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-tst-c_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-tst-c/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-tst-c_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-tst-c/promoSync/lib/promosync.jar",
+      "output_file": "le-tst-c_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-tst-c/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-tst-c_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-tst-c/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-tst-c_mvrefresh.json"
+    }
+  },
+  "le-dev-c": {
+    "updateComponent": {
+      "source": "/www/le-dev-c/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-dev-c_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-dev-c/emailSync/lib/emailsync.jar",
+      "output_file": "le-dev-c_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-dev-c/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-dev-c_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-dev-c/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-dev-c_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-dev-c/promoSync/lib/promosync.jar",
+      "output_file": "le-dev-c_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-dev-c/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-dev-c_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-dev-c/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-dev-c_mvrefresh.json"
+    }
+  },
+  "le-int-c": {
+    "updateComponent": {
+      "source": "/www/le-int-c/updateComponent/lib/updateComponent.jar",
+      "output_file": "le-int-c_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le-int-c/emailSync/lib/emailsync.jar",
+      "output_file": "le-int-c_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le-int-c/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le-int-c_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le-int-c/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le-int-c_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le-int-c/promoSync/lib/promosync.jar",
+      "output_file": "le-int-c_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le-int-c/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le-int-c_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le-int-c/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le-int-c_mvrefresh.json"
+    }
+  },
+  "le": {
+    "updateComponent": {
+      "source": "/www/le/updateComponent/lib/updateComponent.jar",
+      "output_file": "le_updateComponent.json"
+    },
+    "emailSync": {
+      "source": "/www/le/emailSync/lib/emailsync.jar",
+      "output_file": "le_emailsync.json"
+    },
+    "ParseReviewsXml": {
+      "source": "/www/le/vendorFeeds/lib/ParseReviewsXml.jar",
+      "output_file": "le_ParseReviewsXml.json"
+    },
+    "ProductPageUrlProcessor": {
+      "source": "/www/le/vendorFeeds/lib/ProductPageUrlProcessor/ProductPageUrlProcessor.jar",
+      "output_file": "le_ProductPageUrlProcessor.json"
+    },
+    "promosync": {
+      "source": "/www/le/promoSync/lib/promosync.jar",
+      "output_file": "le_promosync.json"
+    },
+    "PsaChangeNotifier": {
+      "source": "/www/le/customer/lib/PsaChangeNotifier.jar",
+      "output_file": "le_PsaChangeNotifier.json"
+    },
+    "mvrefresh": {
+      "source": "/www/le/mvRefresh/lib/mvrefresh.jar",
+      "output_file": "le_mvrefresh.json"
+    }
+  }
+}
