@@ -1,5 +1,6 @@
 {
   "status_folder": "/www/sitebuild_version",
+  "myhostname": "[le-tst-a, le-dev-a, le-int-a, le-qas-a]",
   "le-tst-a": {
     "updateComponent": {
       "source": "/www/le-tst-a/updateComponent/lib/updateComponent.jar",

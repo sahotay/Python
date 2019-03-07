@@ -91,11 +91,13 @@ def get_mvrefresh_version():
     return data
 
 def main():
-    if __args__.environment_name:
-        get_emailsync_version(__args__.environment_name)
+    for env in envs:
+        #print(i)
+        get_emailsync_version(env)
     exit(0)
 
 if __name__ == '__main__':
     __config__, __args__ = config()
+    envs = __config__[os.getenv('HOSTNAME')]
     main()
 
