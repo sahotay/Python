@@ -11,3 +11,12 @@ class Queue(object):
         self.items.insert(0, item)
     def dequeue(self):
         return self.items.pop()
+    def size(self):
+        return len(self.items)
+
+q = Queue()
+print(q.isEmpty())
+q.enqueue(5)
+q.enqueue("five")
+print(q.size())
+print(q.dequeue())
