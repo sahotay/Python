@@ -28,9 +28,14 @@ def finderM2(arr1, arr2):
 print(f"Missing number from 'finderM2' function is: {finderM2(arr_1, arr_2)}")
 
 def finderM3(arr1, arr2):
-    result = 0
-    # Perform an XOR between the number in the arrays
-    for num in arr1+arr2:
-        result^=num
-    return result
+    x1 = a[0] 
+    x2 = 1
+      
+    for i in range(1, n): 
+        x1 = x1 ^ a[i] 
+          
+    for i in range(2, n + 2): 
+        x2 = x2 ^ i 
+
+    return x1 ^ x2 
 print(f"Missing number from 'finderM3' function is: {finderM3(arr_1, arr_2)}")
